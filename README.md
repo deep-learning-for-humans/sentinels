@@ -93,3 +93,14 @@ Devops :
 ## Task board
 
 https://trello.com/b/kgVWG5Qj/sentinels-release-10
+
+## Technologies planned to be used
+
+* [Kubernetes](https://kubernetes.io/)
+* [Helm](https://helm.sh/)
+* [Docker](https://www.docker.com/)
+* [Harbor](https://goharbor.io/)
+* [Kafka](https://kafka.apache.org/)
+* [MLFlow](https://mlflow.org/)
+* [ELK](https://www.elastic.co/what-is/elk-stack)
+* [Prometheus](https://prometheus.io/docs/introduction/overview/)
