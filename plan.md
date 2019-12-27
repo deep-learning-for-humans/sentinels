@@ -55,5 +55,17 @@ Devops :
  * If resource available, job scheduler, schedules the job on the available nodes.
  * Track the status of the job via MLFlow, ELK and prometheus dashboards
  * Data scientist can query the status of the job via command line interface. 
- * On completion of the job, store the artifacts in storage for further perusal.
+ * On completion of the job, store the artifacts in storage for further perusal. 
+ 
+ ## Assumptions on usage
+1. Data is accessed via a shared store of reads, so path to the data store directory. Currently, will support only files and directories. 
+2. Docker containers are present in docker registry. 
+
+3. A user from command line would send docker container Id/ url with a path to configuration yaml and other flags. 
+
+4. The job is queued.
+
+5. Runs as a k8s job with resources present. 
+
+6. All metrics, logs pushed to mlflow server and elk.
 
